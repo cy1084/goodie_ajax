@@ -1,0 +1,18 @@
+2024-06-21 11:49:27 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-21 11:49:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 11:49:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 11:49:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 11:49:27 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 12:30:08 DEBUG LogFactory:109 - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2024-06-21 12:30:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 12:30:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 12:30:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 12:30:08 DEBUG PooledDataSource:373 - PooledDataSource forcefully closed/removed all connections.
+2024-06-21 12:30:08 DEBUG JdbcTransaction:143 - Opening JDBC Connection
+2024-06-21 12:30:09 DEBUG PooledDataSource:448 - Created connection 1947020920.
+2024-06-21 12:30:09 DEBUG JdbcTransaction:107 - Setting autocommit to false on JDBC Connection [oracle.jdbc.driver.T4CConnection@740d2e78]
+2024-06-21 12:30:09 DEBUG login:137 - ==>  Preparing: SELECT ID, NAME, EMAIL, AUTH FROM USERINFO WHERE ID=? AND PASSWORD=?
+2024-06-21 12:30:09 DEBUG login:137 - ==> Parameters: A001(String), A001(String)
+2024-06-21 12:30:10 TRACE login:143 - <==    Columns: ID, NAME, EMAIL, AUTH
+2024-06-21 12:30:10 TRACE login:143 - <==        Row: A001, 코코볼, A001@naver.com, U
+2024-06-21 12:30:10 DEBUG login:137 - <==      Total: 1
